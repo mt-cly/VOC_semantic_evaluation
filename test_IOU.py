@@ -11,9 +11,13 @@ check_file = ''
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser()
-    parser.add_argument("--file", default='check_list.txt', type=str)
+    parser.add_argument("--check_file", default='check_list.txt', type=str)
+    parser.add_argument("--label_dir", default='label_data', type=str)
+    parser.add_argument("--check_dir", default='generated_data', type=str)
     args = parser.parse_args()
-    check_file = args.file
+    label_dir = args.label_dir
+    check_dir = args.check_dir
+    check_file = args.check_file
     # some predefined param
     cal_list = [str.replace('\n','') for str in open(check_file).readlines()]
     c_num = 21
