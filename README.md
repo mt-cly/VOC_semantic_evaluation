@@ -10,3 +10,5 @@ the param 'check_dir' is a directory saves the unit imgs(.png) which generated b
 the param 'check_file' is a text list records the imgs-name for evaluation, here I just rename the 'trainval.txt' in PASCAL VOC12 dataset as 'check_list.txt'. 
 
 more details shown in code ~
+# Accuracy
+I have check the eavaluation result of VOC12_val with VOC server result, and the comparation demonstrates the correction of code.
