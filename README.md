@@ -11,4 +11,4 @@ the param 'check_file' is a text list records the imgs-name for evaluation, here
 
 more details shown in code ~
 # Accuracy
-I have check the eavaluation result of VOC12_val with VOC server result, and the comparation demonstrates the correction of code.
+I have checked the eavaluation result of VOC12_val with VOC server result, and the comparation demonstrates the correction of code.
